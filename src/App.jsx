@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Cart from './Pages/Cart'
+import Login from './Pages/Login'
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
   
     </div>
